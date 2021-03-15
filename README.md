@@ -25,7 +25,7 @@ Using python within the Jupyter Notebook environment offers us the opportunity t
 We will demo how the Jupyter Notebook environment enables us to store the steps used to process and interpret data along with key metadata, which is difficult to do reliability in Excel. 
 
 **You should attend this tutorial if you are:**
-- Interested in geothermal wells and how they are characterised using injection testing and temperature logging
-- a practicing geothermal reservoir engineer who are interested in using python for well test analysis
+- Interested in geothermal wells and how they are characterised using injection testing and temperature logs
+- A practicing geothermal reservoir engineer who are interested in using python for well test analysis
 
 The Juypter Notebooks use methods used are an intermediate python level but, because all code is provided, a novice python user can follow along. 
