@@ -1,26 +1,19 @@
-# T21-Tutoral-WellTestAnalysis
+# Transform 2021 Tutoral: Geothermal Well Test Analysis with Python
 
-Notebooks and sample data will be loaded here for geothermal well test analysis tutorial given during the Software Underground 2021 conference.
-
-
-The tutorial livestream will be UTC Thursday 22 April 22:00. 
-Content will be loaded here around 19/20 April. 
-
-The tutorial and code was developed by Irene Wallis and Katie McLean, industry practitioners with extensive experience in geothermal well logging and testing.
-
-The tutorial will livestream to YouTube during the SWUG Transform 2021 conference and will available through the SWUG YouTube channel for viewing later. 
-
-Follow the link below for more information about the event and how to participate in the live session. 
+This tutorial was developed by Irene Wallis and Katie McLean, industry practitioners with extensive experience in geothermal well logging and testing. It will livestream to YouTube during the SWUG Transform 2021 conference and will available through the SWUG YouTube channel for viewing later. Follow the link below for more information about the event and how to participate in the live session. 
 
 https://softwareunderground.org/events/transform-2021
 
+Notebooks and sample data will be loaded in this repo:
+- Content will be loaded here around 19/20 April
+- The tutorial livestream will be UTC Thursday 22 April 22:00
 
 **Tutorial content**
 
-We will start with an introduction to geothermal wells and then cover the analysis methods for completion (injection) tests and well heating. This includes:
-- Introduction to temperature log analysis and natural state temperatures
-- Injectivitly index determination and considerations
-- Python workflow for completion test spinner log analysis
+The Tutorial will start with an introduction to geothermal wells and then demo Pythonic approaches to analysis of completion (injection) tests and well heating logs: 
+- Introduction to temperature log analysis and natural state temperature interpretation
+- Injectivitly index determination (i.e., well capacity in t/hr.bar)
+- Python workflow for completion test spinner log analysis (i.e., feedzone identification)
 
 Production tests and pressure transient analysis are not covered. 
 
@@ -31,4 +24,4 @@ We will demo how the Jupyter Notebook environment enables us to store the steps 
 - Interested in geothermal wells and how they are characterised using injection testing and temperature logs
 - A practicing geothermal reservoir engineer who are interested in using python for well test analysis
 
-The Juypter Notebooks use methods at an intermediate python level but, because all code is provided, a novice python user can follow along. 
+The tutorial uses methods at an intermediate python level but, because all code is provided, a novice python user can follow along.   
