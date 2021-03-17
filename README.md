@@ -1,4 +1,4 @@
-# Transform 2021 Tutorial: <br/>Geothermal Well Test Analysis with Python
+# Transform 2021 Tutorial <br/>Geothermal Well Test Analysis with Python
 
 This tutorial was developed by Irene Wallis and Katie McLean, industry practitioners with extensive experience in geothermal well logging and testing. It will live-stream to YouTube during the SWUG Transform 2021 conference and will available through the SWUG YouTube channel for viewing later. Follow the link below for more information about the event and how to participate in the live session. 
 
