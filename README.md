@@ -10,7 +10,9 @@ Notebooks and sample data will be loaded in this repo:
 
 **Tutorial content**
 
-The Tutorial will start with an introduction to geothermal wells and then demo Pythonic approaches to analysis of completion (injection) tests and well heating logs: 
+The tutorial will cover: 
+- General introduction to geothermal wells
+- Overview of the completion test process 
 - Introduction to temperature log analysis and natural state temperature interpretation
 - Injectivitly index determination (i.e., well capacity in t/hr.bar)
 - Python workflow for completion test spinner data analysis (i.e., feedzone identification)
