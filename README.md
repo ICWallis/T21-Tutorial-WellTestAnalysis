@@ -16,7 +16,7 @@ https://softwareunderground.org/events/transform-2021
 
 Production tests and pressure transient analysis are not covered. 
 
-Python offers us the opportunity to generate robust and repeatable well test analysis that can be easily audited, which is important given the high-value decisions based on this kind of analysis.
+Python offers us the opportunity to generate a robust and repeatable well test analysis that is easy to audit. This is important given the high-value decisions based on these analyses.
 We will demo how the Jupyter Notebook environment enables us to store the steps taken to process and interpret data along with key metadata, things that are difficult to do reliability in Excel.  
 
 **You should attend this tutorial if you are:**
