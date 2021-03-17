@@ -25,3 +25,6 @@ We will demo how the Jupyter Notebook environment enables us to store the steps 
 
 The tutorial uses methods at an intermediate python level but, because all code is provided, a novice python user can follow along.    
 
+**For more information, check out:**
+- A book co-authored by Katie with Sadiq Zarrouk that covers the theory and practice of geothermal well test analysis https://www.elsevier.com/books/geothermal-well-test-analysis/zarrouk/978-0-12-814946-1
+- A repository developed by Irene that contains Pythonic approaches to borehole image data analysis, including high-temperature volcanic settings https://github.com/ICWallis/fractoolbox
