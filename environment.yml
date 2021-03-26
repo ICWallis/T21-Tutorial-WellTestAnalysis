@@ -1,0 +1,23 @@
+name: geothrm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.9
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - pip
+  - pip:
+    - ipywidgets==7.6.3
+    - jupyterlab-widgets==1.0.0
+    - widgetsnbextension==3.5.1
+    - jdcal==1.4.1
+    - pytz==2021.1
+    - openpyxl==3.0.6
+    - xlrd==2.0.1
+
