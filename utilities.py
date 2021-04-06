@@ -61,7 +61,7 @@ def timestamp_to_datetime(dataframe_col):
     return list
 
 #
-# Find index for values adjacent a known value in a df
+# Pandas dataframe tools
 #
 
 def find_index(value, df, colname):
