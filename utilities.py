@@ -61,6 +61,29 @@ def timestamp_to_datetime(dataframe_col):
     return list
 
 #
+# Find index for values adjacent a known value in a df
+#
+
+def find_index(value, df, colname):
+    '''
+    Find the dataframe index for the exact matching value or nearest two values
+
+    args:   value: (float or int) the search term
+            df: (obj) the name of the dataframe that is searched
+            colname: (str) the name of the coloum this is searched
+
+    returns:  dataframe index(s) for the matching value or the two adjacent values
+              rows can be called from a df using df.iloc[[index_number,index_number]]
+    '''
+    exactmatch = df[df[colname] == value]
+    if not exactmatch.empty:
+        return exactmatch.index
+    else:
+        lowerneighbour_index = df[df[colname] < value][colname].idxmax()
+        upperneighbour_index = df[df[colname] > value][colname].idxmin()
+        return [lowerneighbour_index, upperneighbour_index] 
+
+#
 # Bespoke functions designed to import and mudge sample data
 #
 
