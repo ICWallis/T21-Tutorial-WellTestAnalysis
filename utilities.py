@@ -10,6 +10,10 @@ import openpyxl
 import matplotlib.pyplot as plt 
 import matplotlib.dates as mdates
 
+#
+# Datetime tools
+# 
+
 def to_nztime(t):
     '''
     Convert datetime from UTC to NZ time zone +13 hrs
@@ -24,6 +28,41 @@ def to_nztime(t):
     utctz = tz.gettz('UTC')
     nztz = tz.gettz('Pacific/Auckland')
     return [ti.replace(tzinfo=utctz).astimezone(nztz) for ti in pd.to_datetime(t)]
+
+# https://docs.python.org/3/library/datetime.html?highlight=re#datetime.datetime.timestamp
+
+def datetime_to_timestamp(dataframe_col):
+    '''
+    Make POSIX timestamp from Python datetime object
+
+    args: dataframe column containing datetime objects
+
+    returns: list of POSIX timestamp floats 
+    '''
+    list = []
+    for date in dataframe_col:
+        timestamp = datetime.timestamp(date)
+        list.append(timestamp)
+    return list
+
+
+def timestamp_to_datetime(dataframe_col):
+    '''
+    Make Python datetime object from POSIX timestamp
+
+    args: dataframe column containing POSIX timestamps
+
+    returns: list of datetime objects 
+    '''
+    list = []
+    for date in dataframe_col:
+        newdate = datetime.fromtimestamp(date)
+        list.append(newdate)
+    return list
+
+#
+# Bespoke functions designed to import and mudge sample data
+#
 
 def read_flowrate(filename):
     ''' 
@@ -49,6 +88,8 @@ def read_flowrate(filename):
     df['datetime'] = list
 
     df['flow_tph'] = df.flow_Lpm * 0.060
+
+    df['timestamp'] = datetime_to_timestamp(df.datetime)
 
     df.drop(columns = ['raw_datetime', 'flow_Lpm', 'ISO_datetime'], inplace = True)
 
@@ -97,7 +138,13 @@ def read_pts(filename):
         ['depth_m','speed_mps','cweight_kg','whp_barg','temp_degC','pressure_bara','frequency_hz']
         ].apply(pd.to_numeric)
     
+    df['timestamp'] = datetime_to_timestamp(df.datetime)
+
     return df
+
+#
+# Generate standard overview plot
+#
 
 def overview_fig(pts_df,flowrate_df,title=''):
     fig, (ax1, ax2, ax3, ax4, ax5, ax6) = plt.subplots(6, 1,figsize=(10,15),sharex=True)
@@ -141,33 +188,3 @@ def overview_fig(pts_df,flowrate_df,title=''):
     return plt
 
     
-# https://docs.python.org/3/library/datetime.html?highlight=re#datetime.datetime.timestamp
-
-def datetime_to_timestamp(dataframe_col):
-    '''
-    Make POSIX timestamp from Python datetime object
-
-    args: dataframe column containing datetime objects
-
-    returns: list of POSIX timestamp floats 
-    '''
-    list = []
-    for date in dataframe_col:
-        timestamp = datetime.timestamp(date)
-        list.append(timestamp)
-    return list
-
-
-def timestamp_to_datetime(dataframe_col):
-    '''
-    Make Python datetime object from POSIX timestamp
-
-    args: dataframe column containing POSIX timestamps
-
-    returns: list of datetime objects 
-    '''
-    list = []
-    for date in dataframe_col:
-        newdate = datetime.fromtimestamp(date)
-        list.append(newdate)
-    return list
