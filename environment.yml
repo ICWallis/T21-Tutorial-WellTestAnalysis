@@ -20,4 +20,5 @@ dependencies:
     - pytz==2021.1
     - openpyxl==3.0.6
     - xlrd==2.0.1
+    - ipaws==1.5.2
 
