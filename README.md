@@ -24,7 +24,7 @@ The tutorial uses methods at an intermediate python level but, because all code 
  
 ***
 
-**Here's how you can participate in this event:**
+**Here's how you participate in this event:**
 
 1. Follow this link and register for the Transform 2021 unconference https://softwareunderground.org/events/transform-2021.
 
