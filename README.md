@@ -34,7 +34,7 @@ The tutorial uses methods at an intermediate python level but, because all code 
 
 4. Decide how you want to interact with the tutorial. You will be able to read along in Curvenote, try out the method yourself without installing anything by using Google Colab or instal Anaconda for the full experience. The Anaconda setup process is included at the bottom of this readme and we will provide instructions for Curvenote and Google Colab prior to the tutorial. 
 
-5. Watch the tutorial live stream to YouTube using the link in the schedule (https://softwareunderground.org/events/transform-2021) or the link in the topic of the tutorial slack channel (look in the bar at the top). **The tutorial livestream will be UTC Thursday 22 April 22:00**
+5. Watch the tutorial live stream to YouTube using the link in the schedule (http://schedule.softwareunderground.org/) or the link in the topic of the tutorial slack channel (look in the bar at the top). **The tutorial livestream will be UTC Thursday 22 April 22:00**
 
 6. After the livestream, come meet Irene and Katie, and other tutorial participants, in the Transform 2021 social and hackathon space that's been built using GatherTown (https://gather.town/). A link to this space is included in the topic of the tutorial slack channel (hover over the bar at the top to reveal it). 
 
