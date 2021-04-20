@@ -1,11 +1,6 @@
 # Transform 2021 Tutorial <br/>Geothermal Well Test Analysis with Python
 
-This tutorial was developed by Irene Wallis and Katie McLean, industry practitioners with extensive experience in geothermal well logging and testing. It will live-stream to YouTube during the SWUG Transform 2021 conference and will be available through the SWUG YouTube channel for viewing later. Follow the link below for more information about the event and how to participate in the live session. 
-
-https://softwareunderground.org/events/transform-2021
-
-- Tutorial materials and setup instructions will be loaded here around 19/20 April
-- The tutorial livestream will be UTC Thursday 22 April 22:00
+This tutorial was developed by Irene Wallis and Katie McLean, industry practitioners with extensive experience in geothermal well logging and testing. It will live-stream to YouTube during the SWUG Transform 2021 conference and will be available through the SWUG YouTube channel for viewing later. 
 
 **The tutorial will cover:** 
 - General introduction to geothermal wells
@@ -26,9 +21,33 @@ We will demo how the Jupyter Notebook environment enables us to store the steps 
 The tutorial uses methods at an intermediate python level but, because all code is provided, a novice python user can follow along.    
 
 **For more information,** check out a book co-authored by Katie with Sadiq Zarrouk that covers the theory and practice of geothermal well test analysis https://www.elsevier.com/books/geothermal-well-test-analysis/zarrouk/978-0-12-814946-1
+ 
+***
 
+**Here's how you can participate in this event:**
+
+1. Follow this link and register for the Transform 2021 unconference https://softwareunderground.org/events/transform-2021.
+
+2. If you're not already a member, join the Software Underground slack community.
+
+3. Join the tutorial slack channel #t21-thurs-geothermal because this is where you can ask questions during the tutorial and meet others who are attending.
+
+4. Decide how you want to interact with the tutorial. You will be able to read along in Curvenote, try out the method yourself without installing anything by using Google Colab or instal Anaconda for the full experience. The Anaconda setup process is included at the bottom of this readme and we will provide instructions for Curvenote and Google Colab prior to the tutorial. 
+
+5. Watch the tutorial live stream to YouTube using the link in the schedule (https://softwareunderground.org/events/transform-2021) or the link in the topic of the tutorial slack channel (look in the bar at the top). **The tutorial livestream will be UTC Thursday 22 April 22:00**
+
+6. After the livestream, come meet Irene and Katie, and other tutorial participants, in the Transform 2021 social and hackathon space that's been built using GatherTown (https://gather.town/). A link to this space is included in the topic of the tutorial slack channel (hover over the bar at the top to reveal it). 
+
+***
 
 # Setup instructions
+As well as the livestream to YouTube, you will be able to interact with the tutorial materials in three ways:
+- Read the notebooks at Curvenote (instructions and link to come)
+- Interact with the notebooks without installing anything using Google Colab (instructions to come)
+- Install Anaconda (if you don't already have it) and run the notebooks locally on your computer by following the instructions below 
+
+***
+## Anaconda setup
  
 To run this tutorial, you will need an environment that contains all of the required packages. If you are familiar with setting up your own environment, then go ahead with your usual approach. Otherwise, use the following steps.
 
