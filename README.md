@@ -32,7 +32,7 @@ The tutorial uses methods at an intermediate python level but, because all code 
 
 3. Join the tutorial slack channel #t21-thurs-geothermal because this is where you can ask questions during the tutorial and meet others who are attending.
 
-4. Decide how you want to interact with the tutorial. You will be able to read along in Curvenote, try out the method yourself without installing anything by using Google Colab or instal Anaconda for the full experience. The Anaconda setup process is included at the bottom of this readme and we will provide instructions for Curvenote and Google Colab prior to the tutorial. 
+4. Decide how you want to interact with the tutorial. You will be able to read along in Curvenote, try out the method yourself without installing anything by using Google Colaboratory, or instal Anaconda to run the tutorial notebooks locally on your computer. More detailed setup instructions are provided below.  
 
 5. Watch the tutorial live stream to YouTube (https://www.youtube.com/watch?v=VEKrTV89Ln8) **The tutorial livestream will be UTC Thursday 22 April 22:00** but will also be freely available after the event. 
 
