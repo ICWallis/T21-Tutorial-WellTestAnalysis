@@ -28,7 +28,7 @@ The tutorial uses methods at an intermediate python level but, because all code 
 
 1. Follow this link and register for the Transform 2021 unconference https://softwareunderground.org/events/transform-2021.
 
-2. If you're not already a member, join the Software Underground slack community.
+2. If you're not already a member, join the [Software Underground slack community](https://softwareunderground.org/slack).
 
 3. Join the tutorial slack channel #t21-thurs-geothermal because this is where you can ask questions during the tutorial and meet others who are attending.
 
