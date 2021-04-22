@@ -60,7 +60,7 @@ Google Colab is a way to run the tutorial Jupyter Notebooks (.ipynb) in the clou
 2. Download the content of this repository by clicking on the green "Code" button above and selecting "Download zip"
 3. Unzip the T21-Tutorial-WellTestAnalysis-main.zip 
 4. Sign into your [Google Drive](http://www.drive.google.com/) using your Google account details and upload the unzipped T21-Tutorial-WellTestAnalysis-main folder to google drive. Note that you need to upload into the browser google drive, not the local Google Drive on your hard drive (if you happen to have one).
-5. Open the T21-Tutorial-WellTestAnalysis-main on Google Drive, right click any file that ends with .ipynb and open with Google Colaboratory
+5. Open the T21-Tutorial-WellTestAnalysis-main on Google Drive, right click any file that ends with .ipynb and select "open with". If Google Colaboratory appears in your list, then select this. If Google Colaboratory is not already an option, you need to install this into your Google Drive. To install Google Colaboratory: 1) Right click an .ipynb -> open with -> connect more apps, 2) search the Google Workspace Marketplace for 'Colaboratory', and 3) install Google Colaboratory. Now you will be able to go back to your .ipynb and open with Google Colaboratory.
 
 After you have opened the Jupyter Notebooks (.ipynb) in Colab, you will need to mount your Google Drive (i.e., make Google Drive visible to the notebook) so you can import data. Instructions for how to do this is included in the top of each notebook after the introductory text. 
 
