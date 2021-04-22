@@ -34,20 +34,38 @@ The tutorial uses methods at an intermediate python level but, because all code 
 
 4. Decide how you want to interact with the tutorial. You will be able to read along in Curvenote, try out the method yourself without installing anything by using Google Colab or instal Anaconda for the full experience. The Anaconda setup process is included at the bottom of this readme and we will provide instructions for Curvenote and Google Colab prior to the tutorial. 
 
-5. Watch the tutorial live stream to YouTube using the link in the schedule (http://schedule.softwareunderground.org/) or the link in the topic of the tutorial slack channel (look in the bar at the top). **The tutorial livestream will be UTC Thursday 22 April 22:00**
+5. Watch the tutorial live stream to YouTube (https://www.youtube.com/watch?v=VEKrTV89Ln8) **The tutorial livestream will be UTC Thursday 22 April 22:00** but will also be freely available after the event. 
 
-6. After the livestream, come meet Irene and Katie, and other tutorial participants, in the Transform 2021 social and hackathon space that's been built using GatherTown (https://gather.town/). A link to this space is included in the topic of the tutorial slack channel (hover over the bar at the top to reveal it). 
+6. After the livestream, come meet Irene and Katie, and other tutorial participants, in the Transform 2021 social and hackathon space that's been built using GatherTown (https://gather.town/). A link to this space is included in the topic of the tutorial slack channel (hover over the bar at the top to reveal the gather.town link). 
 
 ***
 
 # Setup instructions
-As well as the livestream to YouTube, you will be able to interact with the tutorial materials in three ways:
-- Read the notebooks at Curvenote (instructions and link to come)
-- Interact with the notebooks without installing anything using Google Colab (instructions to come)
-- Install Anaconda (if you don't already have it) and run the notebooks locally on your computer by following the instructions below 
+
+As well as the livestream to YouTube, you will be able to interact with the tutorial in three ways:
+
+- Read the notebooks at Curvenote by following [this link](https://curvenote.com/@swung/geothermal-well-test-analysis-transform-2021). Big thanks to [Steve Purves](https://github.com/stevejpurves) for setting this up for us.
+
+- Follow the Google Colaboratory instructions below to interact with the notebooks without installing anything. Big thanks to [Thomas Martin](https://github.com/ThomasMGeo) for the Google Colab advise. 
+
+- Follow the Anaconda Setup instructions below to run the notebooks locally on your computer. Big thanks to [Martin Bentley](https://github.com/mtb-za) for testing the local instal method and helping with datetime debugging. 
+
 
 ***
-## Anaconda setup
+## Google Colaboratory Setup Instructions
+
+Google Colab is a way to run the tutorial Jupyter Notebooks (.ipynb) in the cloud. It is free to use but, as is typical of Google products, you have to sign in. We will use the free Google Colab (there is no need to sign up for Google Colab Pro).
+
+1. If you do not already have one, you will need a Google account. If you have a gmail address, you already have a google account.
+2. Download the content of this repository by clicking on the green "Code" button above and selecting "Download zip"
+3. Unzip the T21-Tutorial-WellTestAnalysis-main.zip 
+4. Sign into your [Google Drive](http://www.drive.google.com/) using your Google account details and upload the unzipped T21-Tutorial-WellTestAnalysis-main folder to google drive. Note that you need to upload into the browser google drive, not the local Google Drive on your hard drive (if you happen to have one).
+5. Open the T21-Tutorial-WellTestAnalysis-main on Google Drive, right click any file that ends with .ipynb and open with Google Colaboratory
+
+After you have opened the Jupyter Notebooks (.ipynb) in Colab, you will need to mount your Google Drive (i.e., make Google Drive visible to the notebook) so you can import data. Instructions for how to do this is included in the top of each notebook after the introductory text. 
+
+***
+## Anaconda Setup Instructions
  
 To run this tutorial, you will need an environment that contains all of the required packages. If you are familiar with setting up your own environment, then go ahead with your usual approach. Otherwise, use the following steps.
 
